@@ -1,0 +1,115 @@
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0; 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg_image{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom;
+  
+  z-index: -1;  
+}
+.container{
+    /* position: absolute;
+    top: 0;
+    left: 0; */
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    overflow-y:scroll;
+}
+.text_area{
+    background-color: rgba(130, 154, 182, 0.6);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: calc(80% - 24px + 20px);
+    /* position: absolute;
+    left: 10%;
+    top: 10%; */
+    margin-top: 20px;
+    border-radius: 15px;
+    border: 2px solid rgba(180, 210, 226, 0.6);
+    color:#fff;
+    text-align: center;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 400;
+    font-size: 0.8em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+.chat_box_white{
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    /* width: calc(80% - 24px); */
+    margin-left: 10%;
+    max-width:60%;
+    align-self: flex-start;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    color:#000;
+    text-align: left;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    position: relative;
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
+}
+.chat_box_white::before{
+    content: "";
+    position: absolute;
+    left: -10px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 10px solid rgba(255, 255, 255, 1);
+
+}
+.chat_box_blue{
+    background-color: rgba(130, 154, 182, 0.8);
+    padding: 10px;
+    /* width: calc(80% - 24px); */
+    margin-right: 10%;
+    max-width:60%;
+    align-self: flex-end;
+    margin-top: 10px;
+    border-radius: 15px;
+    border: 2px solid rgba(180, 210, 226, 0.8);
+    color:#fff;
+    text-align: left;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    font-weight: 500;
+    font-size: 0.8em;
+    position: relative;
+    /* text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); */
+}
+.chat_box_blue::before{
+    content: "";
+    position: absolute;
+    right: -10px;
+    top: 15px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 10px solid rgba(180, 210, 226, 1); 
+}

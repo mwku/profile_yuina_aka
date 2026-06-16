@@ -1,0 +1,20 @@
+[
+    {
+        "element":"<div style=\"font-size: 1.7em;\">『ほし』</div><br>国籍：&nbsp;&nbsp;台湾<br>星座：しし座<br>性別：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;男<br>ENTP-討論者",
+        "animate_name":"BottomToCenter 1.5s ease",
+        "class":"text_area",
+        "script":""
+    },
+    {
+        "element":"大好きな曲は？",
+        "animate_name":"LeftToCenter 1.5s ease",
+        "class":"chat_box_white",
+        "script":""
+    },
+    {
+        "element":"１７さいのうた。",
+        "animate_name":"RightToCenter 1.5s ease",
+        "class":"chat_box_blue",
+        "script":""
+    }
+]
