@@ -1,6 +1,6 @@
 [
     {
-        "element":"<div style=\"font-size: 1.5em;\">『ほし』</div><br>台湾からの男のユイナーです<br>皆さんとたくさんお話ししたいので、DMをくれたら嬉しいです！<br>よろしくお願いします！",
+        "element":"<div style=\"font-size: 1.5em;\">『ほし』</div><br>台湾からの男子ユイナーです<br>皆さんとたくさんお話ししたいので、DMをくれたら嬉しいです！<br>よろしくお願いします！",
         "animate_name":"BottomToCenter 1.5s ease",
         "class":"text_area",
         "style":"",
@@ -39,7 +39,7 @@
         "animate_name":"RightToCenter 1.5s ease",
         "class":"chat_box_blue",
         "style":"",
-        "script":"function mySpecificFunction(element) {const targetDate = new Date('2025-08-18');const today = new Date();const differenceInTime = today.getTime() - targetDate.getTime();const differenceInDays = Math.floor(differenceInTime / (1000 * 60 * 60 * 24));element.textContent = `ちなみに、今日は出会って${differenceInDays + 1}日目ですよ⸜❤︎⸝‍`;}const observer = new MutationObserver((mutationsList, observer) => {const targetElement = document.getElementById('day');if (targetElement) {mySpecificFunction(targetElement);observer.disconnect(); }});observer.observe(document.body, { childList: true,subtree: true});"
+        "script":"function mySpecificFunction(element) {const targetDate = new Date('2025-08-18');const today = new Date();const differenceInTime = today.getTime() - targetDate.getTime();const differenceInDays = Math.floor(differenceInTime / (1000 * 60 * 60 * 24));element.textContent = `ちなみに、今日で出会って${differenceInDays + 1}日目ですよ⸜❤︎⸝‍`;}const observer = new MutationObserver((mutationsList, observer) => {const targetElement = document.getElementById('day');if (targetElement) {mySpecificFunction(targetElement);observer.disconnect(); }});observer.observe(document.body, { childList: true,subtree: true});"
     },
     {
         "element":"好きな曲は？",
