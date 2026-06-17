@@ -21,6 +21,13 @@
         "script":""
     },
     {
+        "element":"<div style=\"font-size: 1.5em;\">次は募集質問です</div>",
+        "animate_name":"BottomToCenter 1.5s ease",
+        "class":"text_area",
+        "style":"",
+        "script":""
+    },
+    {
         "element":"ゆいたんとはどうやって知り合ったの？",
         "animate_name":"LeftToCenter 1.5s ease",
         "class":"chat_box_white",
@@ -49,14 +56,76 @@
         "script":""
     },
     {
-        "element":"<div>一番好きな曲は17さいのうたです⸜❤︎⸝‍<br>17歳じゃなくなっても、この曲をずっと好きでい続けます！</div><iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"150px\" style=\"width:100%;max-width:300px;overflow:hidden;background:transparent;padding-top:10px;padding-bottom:0;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/jp/album/17%E3%81%95%E3%81%84%E3%81%AE%E3%81%86%E3%81%9F/1624492323?i=1624492730\"></iframe>",
+        "element":"<div>一番好きな曲は17さいのうたです<br>17歳じゃなくなっても、この曲をずっと好きでい続けます！</div><iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"150px\" style=\"width:100%;max-width:300px;overflow:hidden;background:transparent;padding-top:10px;padding-bottom:0;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/jp/album/17%E3%81%95%E3%81%84%E3%81%AE%E3%81%86%E3%81%9F/1624492323?i=1624492730\"></iframe>",
         "animate_name":"RightToCenter 1.5s ease",
         "class":"chat_box_blue",
         "style":"",
         "script":""
     },
     {
-        "element":"<div>あと、私が選んだものや桜想、紺色に憧れてとかも好きです</div><iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"150px\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;padding-top:10px;padding-bottom:0;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/jp/album/what-i-chose/1854054602?i=1854054613\"></iframe><iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"150px\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;padding-top:10px;padding-bottom:0;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/jp/album/sakura-sou/1748508425?i=1748508503\"></iframe><iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"150px\" style=\"width:100%;max-width:660px;overflow:hidden;background:transparent;padding-top:10px;padding-bottom:0;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/jp/album/longing-for-navy-blue/1748508425?i=1748508426\"></iframe>",
+        "element":"<div>あと、私が選んだものや桜想、紺色に憧れてとかも好きです</div><iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"150px\" style=\"width:100%;max-width:300px;overflow:hidden;background:transparent;padding-top:10px;padding-bottom:0;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/jp/album/what-i-chose/1854054602?i=1854054613\"></iframe><iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"150px\" style=\"width:100%;max-width:300px;overflow:hidden;background:transparent;padding-top:10px;padding-bottom:0;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/jp/album/sakura-sou/1748508425?i=1748508503\"></iframe><iframe allow=\"autoplay *; encrypted-media *;\" frameborder=\"0\" height=\"150px\" style=\"width:100%;max-width:300px;overflow:hidden;background:transparent;padding-top:10px;padding-bottom:0;\" sandbox=\"allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation\" src=\"https://embed.music.apple.com/jp/album/longing-for-navy-blue/1748508425?i=1748508426\"></iframe>",
+        "animate_name":"RightToCenter 1.5s ease",
+        "class":"chat_box_blue",
+        "style":"",
+        "script":""
+    },
+    {
+        "element":"好きな歌詞",
+        "animate_name":"LeftToCenter 1.5s ease",
+        "class":"chat_box_white",
+        "style":"",
+        "script":""
+    },
+    {
+        "element":"拝啓 過去の私へ 今の私は<br>ずっと夢見ていたこと叶えてるよ<br>&nbsp;--&nbsp;17さいのうた。<br><br>あの子には見えてる綺麗な景色が<br>いつか私にも見えますように<br>&nbsp;--&nbsp;私が選んだもの<br><br>どうかずっとずっと私のままでいたい<br>いいやつじゃないけど<br>いいやつのふりして生きていたい<br>&nbsp;--&nbsp;ラストティーン<br><br>呆れ返るような日常だって<br>いつかおじいちゃんおばあちゃんになったら<br>きっとこの日々が非日常になってるはずだから<br>&nbsp;&nbsp;--&nbsp;お姫様にはなれない<br><br>綺麗な花を摘むように<br>貴方も誰かに摘まれたのならば<br>別に綺麗に生きる意味なんてないじゃないか<br>&nbsp;--&nbsp;&nbsp;桜想。",
+        "animate_name":"RightToCenter 1.5s ease",
+        "class":"chat_box_blue",
+        "style":"",
+        "script":""
+    },
+    {
+        "element":"恋愛ソングより、人生について歌った歌詞のほうが心に響くので好きです!",
+        "animate_name":"RightToCenter 1.5s ease",
+        "class":"chat_box_blue",
+        "style":"",
+        "script":""
+    },
+    {
+        "element":"好きな食べ物",
+        "animate_name":"LeftToCenter 1.5s ease",
+        "class":"chat_box_white",
+        "style":"",
+        "script":""
+    },
+    {
+        "element":"牛肉麺です！あとはラーメン、ローストチキン、台湾風そうめんも好きです！",
+        "animate_name":"RightToCenter 1.5s ease",
+        "class":"chat_box_blue",
+        "style":"",
+        "script":""
+    },
+    {
+        "element":"あと、高校の裏門にあった朝食専門店！！！",
+        "animate_name":"RightToCenter 1.5s ease",
+        "class":"chat_box_blue",
+        "style":"",
+        "script":""
+    },
+    {
+        "element":"大好きなものなら、1ヶ月連続で食べ続けても余裕です！",
+        "animate_name":"RightToCenter 1.5s ease",
+        "class":"chat_box_blue",
+        "style":"",
+        "script":""
+    },
+    {
+        "element":"哈囉（こんにちわ）",
+        "animate_name":"LeftToCenter 1.5s ease",
+        "class":"chat_box_white",
+        "style":"",
+        "script":""
+    },{
+        "element":"こんにちわ、ほしです",
         "animate_name":"RightToCenter 1.5s ease",
         "class":"chat_box_blue",
         "style":"",
