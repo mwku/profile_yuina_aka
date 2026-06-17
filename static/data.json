@@ -125,7 +125,7 @@
         "style":"",
         "script":""
     },{
-        "element":"こんにちわ、ほしです",
+        "element":"こんにちわ、『ほし』です",
         "animate_name":"RightToCenter 1.5s ease",
         "class":"chat_box_blue",
         "style":"",
