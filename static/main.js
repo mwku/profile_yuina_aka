@@ -5,8 +5,12 @@ document.addEventListener("DOMContentLoaded", function() {
         const container = document.getElementById("container");
         let element = ""
         for(let i = 0; i < data.length; i++) {
-            element+=`<div class="${data[i].class}"  style="opacity: 0;">${data[i].element}</div>`;
+            element+=`<div class="${data[i].class}"  style="opacity: 0; ${data[i].style}">${data[i].element}</div>`;
+            script = document.createElement("script");
+            script.textContent = data[i].script;
+            document.body.appendChild(script);
         }
+        element += `<div style="height: 30%; width: 1px; flex-shrink: 0;"></div>`;
         container.innerHTML += element;
         for(let i = 0; i < data.length; i++) {
             const child = container.children[i];
