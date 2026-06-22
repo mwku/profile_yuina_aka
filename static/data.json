@@ -21,7 +21,7 @@
         "script": ""
     },
     {
-        "element": "<div style=\"font-size: 1.5em;\"⇊募集質問⇊</div>",
+        "element": "<div style=\"font-size: 1.5em;\">⇊募集質問⇊</div>",
         "animate_name": "BottomToCenter 1.5s ease",
         "class": "text_area",
         "style": "",
